@@ -7,11 +7,11 @@
 <script text="text/javascript" src="jquery.js"></script>
 <script>
 	$("document").ready( function() {
-		//Clicking on an <a> element changes its background to a lighter green
+		//Clicking on an <a> element changes the background of these elements to a lighter green
 		$("a").click( function() {
 			$("a:hover").css("background-color", "#C0D9AF");
 		});
-		//Clicking on one of the <h2> elements with the .title class that are children of the .post class hides these <h2> elements
+		//Clicking on one of the .title class <h2> elements that are children of the .post class hides the content beneath these <h2> elements
 		$(".post > .title").click( function() {
 			$(".entry").hide();
 		});
